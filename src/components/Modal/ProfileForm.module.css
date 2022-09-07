@@ -1,0 +1,91 @@
+.form {
+  width: 95%;
+  max-width: 25rem;
+  margin: 2rem auto;
+  padding: 2rem;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.75),
+    4px 4px 16px -8px rgba(0, 0, 0, 0.75);
+}
+
+.control {
+  margin-bottom: 0.5rem;
+}
+
+.control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #353336;
+  display: block;
+}
+
+.control input {
+  display: block;
+  font: inherit;
+  width: 100%;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid #38015c;
+  padding: 0.25rem;
+  background-color: #f7f0fa;
+}
+
+.action {
+  margin-top: 1.5rem;
+}
+
+.action button {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  background-color: #38015c;
+  color: white;
+  border: 1px solid #38015c;
+}
+
+.action button:hover {
+  background-color: #540d83;
+  border-color: #540d83;
+}
+
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+button:disabled,
+button:disabled:hover,
+button:disabled:active {
+  background-color: #ccc;
+  color: #292929;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+
+button:hover,
+button:active {
+  background-color: #33059e;
+  border-color: #33059e;
+}
+
+.invalid input {
+  border: 1px solid #b40e0e;
+  background-color: #fddddd;
+}
+
+.invalid input:focus {
+  border-color: #ff8800;
+  background-color: #fbe8d2;
+}
+
+label.invalid {
+  color: black;
+
+}
+
+.error-text {
+  color: #b40e0e;
+}
